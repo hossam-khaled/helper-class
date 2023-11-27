@@ -1,0 +1,366 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.order-status {
+  text-transform: capitalize;
+
+}
+.order-status.status-pending {
+  background: #f1c40f;
+  color: #444;
+}
+.order-status.status-in-review {
+  background: #e67e22;
+  color: #fff;
+}
+.order-status.status-fulfillment {
+  background: #6c5ce7;
+  color: #fff;
+}
+.order-status.status-shipped {
+  background: #00dad5;
+  color: #fff;
+}
+.order-status.status-delivered {
+  background: #2ecc71;
+  color: #fff;
+}
+.order-status.status-returned-process {
+  background: #fd79a8;
+  color: #fff;
+}
+.order-status.status-returned {
+  background: #e17055;
+  color: #fff;
+}
+.field-set {
+  border-bottom:1px solid #ddd;
+  padding-bottom:25px;
+  margin-bottom:25px;
+  margin-top:20px;
+}
+.field-container {
+  margin-bottom:10px;
+  overflow:hidden;
+  font-family:tahoma;
+}
+.field-container label{
+  display:inline-block;
+  float:right;
+  width:19%;
+}
+.field-container .field{
+  float:right;
+  width:78%;
+}
+
+.field-container .field input[type="submit"]{
+  background-color: #2980b9;
+  color: #fff;
+  padding: 5px;
+  border: 0;
+  margin-top: 3px;
+  border-radius: 3px;
+}
+.field-container .field input,
+.field-container .field select,
+.field-container .field textarea{
+  /* width:50%; */
+}
+.field-container .field input[type="checkbox"]{
+  width: auto;
+}
+.field-container p{
+  clear:both;
+  padding:7px 19% 0 0;
+  color:#666;
+}
+
+.field-container p.product {
+  font-size: 18px;
+}
+
+
+/* ---------------------------------------------- */
+.field-set {
+  border-bottom:1px solid #ddd;
+  padding-bottom:25px;
+  margin-bottom:25px;
+  margin-top:20px;
+}
+.field-container {
+  margin-bottom:10px;
+  overflow:hidden;
+  font-family:tahoma;
+}
+.field-container label{
+  display:inline-block;
+  float:right;
+  width:19%;
+}
+.field-container .field{
+  float:right;
+  width:78%;
+}
+.field-container .field input[type="text"],
+.field-container .field select,
+.field-container .field textarea{
+  width:50%;
+}
+.field-container p{
+  clear:both;
+  padding:7px 19% 0 0;
+  color:#666;
+}
+
+/* Admin Desk */
+.desk-panel .fields-set{
+  margin-top:15px;
+}
+.desk-panel .fields-set label{
+  display:block;
+  margin:5px 0 0 0;
+  color:#666;
+  float:right;
+  width:85px;
+  font-size:13px;
+}
+.desk-panel .fields-set .field {
+  overflow:hidden;
+}
+.desk-panel .fields-set select {
+  width:98%;
+}
+.desk-panel .publish-container {
+  margin-top:15px;
+  padding:10px 0;
+  border-top:1px solid #ddd;
+}
+.desk-panel .divider {
+  margin-top:15px;
+  border-top:1px solid #ddd;
+  width:100%;
+  height:1px;
+}
+.desk-panel .description {
+  margin-top:15px;
+  color:#999;
+  font-size:12px;
+  border-right:2px solid #00A507;
+  padding-right:10px;
+}
+
+/*table*/
+.desk-table .big-name {
+  font-size:18px;
+}
+.desk-table .green {
+  color:#00A507;
+}
+.desk-table .red {
+  color:#ff0000;
+}
+.desk-table .selected {
+  background:#f5f5f5;
+}
+
+/* home block category */
+.widget-options {
+  padding: 12px 0;
+}
+.widget-options label,
+.widget-options span {
+  display: block;
+}
+.widget-options > div {
+  padding:0;
+  margin:0;
+  padding: 12px 12px 10px 12px;
+  background: #f9f9f9;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.widget-options > div label {
+  margin-bottom: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px 12px;
+  margin: -12px -12px 10px -12px;
+  background: #ececec;
+  border-radius: 5px;
+  border-right:3px solid #39aee6;
+}
+.widget-options #khafagy-upload-button {
+  float: right;
+  margin-left: 5px;
+}
+.widget-options .wp-picker-container {
+  margin-top: 3px;
+  float: right;
+  margin-left: 5px;
+}
+.widget-options input {
+  box-sizing: border-box;
+}
+.widget-options input.small,
+.widget-options select.small {
+  width: 20%;
+  margin-bottom: 7px !important;
+  float: right;
+  margin-left: 5px;
+  height: 28px;
+}
+.widget-options .uploaded-media {
+  width: 100px;
+  max-height: 100px;
+  padding: 10px;
+  overflow: hidden;
+  background: #fff;
+  border: #f9f9f9;
+  margin-bottom: 5px;
+}
+.widget-options .uploaded-media a {
+  display: block;
+}
+.widget-options .uploaded-media img {
+  max-width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.widget-options .image-selector{
+  overflow:hidden;
+}
+.widget-options .image-selector span{
+  width:33.3%;
+  float:right;
+  background-position: center center;
+  background-repeat:no-repeat;
+  height:95px;
+  box-sizing: border-box;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  cursor: pointer;
+  background-size:80px 80px;
+  border-radius:5px;
+}
+.widget-options .image-selector span:hover,
+.widget-options .image-selector span.active{
+  background-color: #f1f1f1 !important;
+}
+.widget-options .select-category-2,
+.widget-options .select-category-3 {
+  display:none;
+}
+.widget-options .select-category-1.hidden,
+.widget-options .select-category-2.hidden,
+.widget-options .select-category-3.hidden {
+  display:none;
+}
+.widget-options .select-category-1.show,
+.widget-options .select-category-2.show,
+.widget-options .select-category-3.show {
+  display:block;
+}
+.wp-picker-container .wp-color-result.button {
+  float: right;
+}
+.wp-picker-input-wrap label, .wp-picker-open+.wp-picker-input-wrap {
+	display:flex;
+	margin: -2px 5px 5px 10px !important;
+}
+#remove-image {
+  float: right;
+  margin-left: 5px;
+  color: #f00;
+}
+/* #wpadminbar {
+	padding-right: 160px;
+} */
+/* #adminmenuwrap::before {
+  content: "";
+  padding-top: 50px;
+  display: block;
+  background-size: 140px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/khafagy-logo2.png');
+} */
+.questionnaires {
+  padding: 5px;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+}
+.questionnaires .field-container label {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.questionnaires .field-container.question label {
+  font-weight: bold;
+  font-size: 16px;
+}
+.questionnaires .field-container.answer label {
+  font-size: 14px;
+}
+.questionnaires .field-container.answer .field {
+  margin-bottom: 5px;
+}
+
+/* fake-select
+======================*/
+#media_buyer_product {
+  display: none;
+}
+.fake-select {
+  display: block;
+  overflow: auto;
+  max-height: 250px;
+
+  position: relative;
+}
+.fake-select::before {
+  content: "";
+  position: absolute;
+  background-image: url('../assets/images/arrwo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px;
+  width: 15px;
+  height: 15px;
+  transform: rotate(90deg);
+  top: 10px;
+  left: 5px;
+}
+.fake-select .fake-option {
+  max-height: 99px;
+  overflow: hidden;
+  display: none;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.fake-select .fake-option.selected,
+.fake-select .fake-option:hover {
+  background-color: #f8f8f8;
+  display: flex;
+}
+.fake-select .fake-option.active {
+  display: flex;
+}
+.fake-select .fake-option .thumbnail {
+  max-width: 99px;
+  max-height: 99px;
+  margin-left: 15px;
+}
+.fake-select .fake-option .text {
+
+}
+.fake-select .fake-option .text .title {
+
+}
